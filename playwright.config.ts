@@ -36,4 +36,14 @@ export default defineConfig({
   //   url: 'http://localhost:3000',
   //   reuseExistingServer: !process.env.CI,
   // },
+  projects: [
+    {
+      name: "dev",
+      metadata: { environment: "dev" },
+    },
+    {
+      name: "prod",
+      metadata: { environment: "prod" },
+    },
+  ],
 });

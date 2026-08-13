@@ -1,13 +1,18 @@
-import { test as base, expect } from "@playwright/test";
+import { test as base } from "@playwright/test";
 import { UserApiClient } from "../src/api/UserApiClient";
 
-type Fixtures = { userApi: UserApiClient };
-const targetEnv = (process.env.TARGET_ENV ?? "dev") as "dev" | "prod";
+type MyFixtures = {
+  userApi: UserApiClient;
+};
 
-export const test = base.extend<Fixtures>({
-  userApi: async ({ request }, use) => {
-    await use(new UserApiClient(request, targetEnv));
+export const test = base.extend<MyFixtures>({
+  userApi: async ({ request }, use, testInfo) => {
+    const env =
+      (testInfo.project.metadata.environment as "dev" | "prod") || "dev";
+    const client = new UserApiClient(request, env);
+
+    await use(client);
   },
 });
 
-export { expect };
+export { expect } from "@playwright/test";
