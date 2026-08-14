@@ -74,7 +74,7 @@ test.describe("POST /users", () => {
     expect(response.status()).toBe(409);
   });
 
-  test.describe.only("invalid email format", () => {
+  test.describe("invalid email format", () => {
     const invalidEmailTemplates: {
       label: string;
       build: (unique: string) => string;
