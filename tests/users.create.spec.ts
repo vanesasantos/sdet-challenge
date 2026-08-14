@@ -98,7 +98,7 @@ test.describe("POST /users", () => {
     }
   });
 
-  test.describe.only("field type validation", () => {
+  test.describe("field type validation", () => {
     const typeMismatchCases: {
       label: string;
       overrides: (unique: string) => Record<string, unknown>;
