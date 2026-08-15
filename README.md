@@ -6,18 +6,17 @@ An end-to-end (E2E) automated testing suite and CI/CD regression pipeline for th
 
 ## 📋 Table of Contents
 
-* [Architecture & Tech Stack](https://www.google.com/search?q=%23-architecture--tech-stack)
-* [Key Features & Highlighted Practices](https://www.google.com/search?q=%23-key-features--highlighted-practices)
-* [Project Structure](https://www.google.com/search?q=%23-project-structure)
-* [Getting Started Locally](https://www.google.com/search?q=%23-getting-started-locally)
-* [Prerequisites](https://www.google.com/search?q=%23prerequisites)
-* [Installation & Setup](https://www.google.com/search?q=%23installation--setup)
-* [Running the API Container](https://www.google.com/search?q=%23running-the-api-container)
-* [Executing Tests](https://www.google.com/search?q=%23executing-tests)
+* Architecture & Tech Stack
+* Key Features & Highlighted Practices
+* Project Structure
+* Getting Started Locally
+* Prerequisites
+* Installation & Setup
+* Running the API Container
+* Executing Tests
 
-
-* [CI/CD Pipeline (GitHub Actions)](https://www.google.com/search?q=%23-cicd-pipeline-github-actions)
-* [Bug Reporting & Known Issues](https://www.google.com/search?q=%23-bug-reporting--known-issues)
+* CI/CD Pipeline (GitHub Actions)
+* Bug Reporting & Known Issues
 
 ---
 
