@@ -173,7 +173,7 @@ The workflow file `.github/workflows/api-regression.yml` automates the regressio
 
 ## 🐛 Bug Reporting & Known Issues
 
-Discrepancies found between the actual API behavior and the official specification (`sdet_challenge_api.yml`) have been documented in detail in [BUGS_REPORT.md](https://www.google.com/search?q=./BUGS_REPORT.md).
+Discrepancies found between the actual API behavior and the official specification (`sdet_challenge_api.yml`) have been documented in detail in **BUGS_REPORT.md**.
 
 ### Summary of Identified Issues:
 
