@@ -181,3 +181,11 @@ Discrepancies found between the actual API behavior and the official specificati
 * **BUG-004 / BUG-006**: `DELETE /{env}/users/{email}` does not validate authentication credentials (requests succeed even without headers or with invalid tokens).
 * **BUG-005**: `GET /{env}/users/{email}` returns `500 Internal Server Error` instead of `404 Not Found` when requesting a deleted or non-existent record.
 * **BUG-007**: Resource lookup precedes authentication validation, returning `404` instead of `401` when unauthenticated requests are sent for non-existent users (Potential User Enumeration vulnerability).
+
+---
+## 👨‍💻 Author & Strategic Contact
+
+* **Vanesa Santos** — *Software Engineer & QA Specialist*
+* **LinkedIn:** [linkedin.com/in/santosvanesa](https://www.linkedin.com/in/santosvanesa/)
+* **Credentials:** ISTQB® Certified | University Professor
+* **Email:** vanesa.santos.qa@gmail.com
