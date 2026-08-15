@@ -6,8 +6,3 @@ export interface User {
 
 export type CreateUserRequest = User;
 export type UpdateUserRequest = User;
-
-export interface ErrorReponse {
-  message: string;
-  code: number;
-}
